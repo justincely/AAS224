@@ -8,6 +8,11 @@ demonstrating the methods described on the poster.
 The posters are written in the iPython notebook, which will allow you to view, 
 edit, and re-run each step.  
 
+Untarring the data
+==================
+Before running the notebooks, make sure to untar the data with 
+```make untar```
+
 Starting the notebook
 =====================
 To run the iPython notebook, run in a terminal:

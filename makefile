@@ -1,5 +1,8 @@
 all: html markdown
 
+untar:
+	tar -zxvf data.tar.gz
+
 html:
 	ipython nbconvert --to html *.ipynb
 
