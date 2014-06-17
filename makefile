@@ -16,6 +16,11 @@ untar:
 	mv data_2/* data
 	mv data_3/* data
 	mv data_4/* data
+	rmdir data_1
+	rmdir data_2
+	rmdir data_3
+	rmdir data_4
+
 
 html:
 	ipython nbconvert --to html *.ipynb
